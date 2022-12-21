@@ -1,13 +1,8 @@
 #include <stdio.h>
 
-int main(int argc, char *argv[])
+int main(void)
 {
-    int i;
-
-    for (i = 0; i < argc; i++)
-    {
-        printf("argv[%d] = %s\n", i, argv[i]);
-    }
+	printf("This is a beautiful code to certify betty check\n");
 
     return 0;
 }
